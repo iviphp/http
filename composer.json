@@ -1,0 +1,18 @@
+{
+  "name": "iviphp/http",
+  "description": "HTTP request and response primitives for the IviPHP ecosystem.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ivi\\Http\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "iviphp/support": "^0.1"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
